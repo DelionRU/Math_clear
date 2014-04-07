@@ -15,7 +15,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:text="Статистика"
+            android:text="@string/stats"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <TextView
@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
-            android:text="Назад" />
+            android:text="@string/back" />
 
         <TextView
             android:id="@+id/textViewLogin"
@@ -54,7 +54,7 @@
                  android:layout_height="wrap_content"
                  android:layout_gravity="right"
                  android:layout_weight="1"
-                 android:text="Лучшие 10" />
+                 android:text="@string/top_10" />
 
         </LinearLayout>
         
@@ -70,7 +70,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="left"
-                        android:text="Последние 10" />
+                        android:text="@string/last_10" />
                     
         </LinearLayout>
 

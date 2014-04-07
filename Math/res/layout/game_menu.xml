@@ -14,7 +14,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:text="Игровое меню"
+            android:text="@string/game_menu"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <TextView
@@ -23,7 +23,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
-            android:text="Назад" />
+            android:text="@string/back" />
 
         <TextView
             android:id="@+id/textViewLogin"
@@ -35,12 +35,6 @@
 
     </RelativeLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal" >
-
-    </LinearLayout>
     
     <LinearLayout
         android:layout_width="match_parent"
@@ -54,7 +48,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             android:layout_weight="3.43"
-            android:text="Старт" />
+            android:text="@string/start" />
     </LinearLayout>
 
    <LinearLayout
@@ -89,7 +83,7 @@
                 android:enabled="false"
                 android:focusable="false"
                 android:focusableInTouchMode="false"
-                android:hint="Ваш ответ ?"
+                android:hint="@string/your_answer"
                 android:inputType="number" />
 
             <Button
@@ -108,7 +102,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
-            android:text="Нажмите Старт для начала"
+            android:text="@string/press_start"
             android:textAppearance="?android:attr/textAppearanceLarge" />
 
         <TextView

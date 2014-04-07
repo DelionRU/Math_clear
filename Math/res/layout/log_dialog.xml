@@ -11,14 +11,14 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ваше имя:"
+        android:text="@string/your_name"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
 <EditText
     android:id="@+id/etText"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:hint="Имя" >
+    android:hint="@string/name" >
 
 <requestFocus>
 </requestFocus>
@@ -29,7 +29,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:checked="true"
-    android:text="Запомнить" />
+    android:text="@string/remember" />
 
 <LinearLayout
     android:id="@+id/linearLayout1"
@@ -51,7 +51,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="Clear" >
+        android:text="@string/clear" >
 
     </Button>
 </LinearLayout>
@@ -67,7 +67,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_weight="1"
-    android:text="Гость" />
+    android:text="@string/Guest" />
 
 </LinearLayout>
 

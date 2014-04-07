@@ -15,7 +15,7 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:background="#ffffffff"
-            android:text="Устный счет"
+            android:text="@string/mental_arch"
             android:textAppearance="?android:attr/textAppearanceLarge" />
 
         <TextView
@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:layout_alignParentTop="true"
-            android:text="Login" />
+            android:text="@string/login" />
 
         <TextView
             android:id="@+id/textView2"
@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
-            android:text="v1.1"
+            android:text="@string/version"
             android:textAppearance="?android:attr/textAppearanceSmall" />
 
     </RelativeLayout>
@@ -42,7 +42,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Архимед"
+        android:text="@string/arch"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
@@ -52,7 +52,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="40dp"
         android:background="#ffffffff"
-        android:text="Играть"
+        android:text="@string/play"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
@@ -62,7 +62,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
         android:background="#ffffffff"
-        android:text="Статистика"
+        android:text="@string/stat"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
@@ -72,7 +72,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
         android:background="#ffffffff"
-        android:text="Настройки"
+        android:text="@string/set"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
@@ -82,7 +82,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
         android:background="#ffffffff"
-        android:text="Выход"
+        android:text="@string/exit"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </LinearLayout>

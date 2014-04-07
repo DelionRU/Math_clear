@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Устный счет - Архимед</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="game_menu">Игровое меню</string>
+    <string name="back">Назад</string>
+    <string name="start">Старт</string>
+    <string name="your_answer">Ваш ответ ?</string>
+    <string name="press_start">Нажмите Старт для начала</string>
+    <string name="your_name">Ваше имя:</string>
+    <string name="name">Имя</string>
+    <string name="remember">Запомнить</string>
+    <string name="clear">Clear</string>
+    <string name="Guest">Гость</string>
+    <string name="mental_arch">Устный счет</string>
+    <string name="login">Login</string>
+    <string name="version">v1.1</string>
+    <string name="arch">Архимед</string>
+    <string name="play">Играть</string>
+    <string name="stat">Статистика</string>
+    <string name="set">Настройки</string>
+    <string name="exit">Выход</string>
+    <string name="author">Автор: Мельников Андрей</string>
+    <string name="email_andrey7melnikov_gmail_com">Email: andrey7melnikov@gmail.com</string>
+    <string name="autohor_mail">Пишите письма)</string>
+    <string name="select_user">Выберите пользователя:</string>
+    <string name="guest">Гость</string>
+    <string name="or_create_new">или создайте нового:</string>
+    <string name="name_new_user">Имя нового пользователя</string>
+    <string name="settings">Настройки</string>
+    <string name="not_write_stat">" Не записывать статистику"</string>
+    <string name="clear_stat">Очистить статистику</string>
+    <string name="use_minus_in_game">Использовать минус (-) в игре</string>
+    <string name="hard_game">Высокая сложность (от 0 до 99)</string>
+    <string name="player_name">Имя игрока:</string>
+    <string name="remember_set">Не спрашивать перед игрой</string>
+    <string name="stats">Статистика</string>
+    <string name="top_10">Лучшие 10</string>
+    <string name="last_10">Последние 10</string>
+
+</resources>

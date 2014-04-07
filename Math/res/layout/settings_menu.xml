@@ -15,7 +15,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:text="Настройки"
+            android:text="@string/settings"
             android:textAppearance="?android:attr/textAppearanceLarge" />
 
         <TextView
@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
-            android:text="Назад"
+            android:text="@string/back"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
     </RelativeLayout>
@@ -34,13 +34,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:checked="true"
-        android:text=" Не записывать статистику" />
+        android:text="@string/not_write_stat" />
 
     <Button
         android:id="@+id/ClearStat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Очистить статистику" />
+        android:text="@string/clear_stat" />
 
 <View
     android:layout_width="fill_parent"
@@ -52,14 +52,14 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:checked="true"
-    android:text="Использовать минус (-) в игре" />
+    android:text="@string/use_minus_in_game" />
 
 <CheckBox
     android:id="@+id/checkBoxHard"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:checked="true"
-    android:text="Высокая сложность (от 0 до 99)" />
+    android:text="@string/hard_game" />
 
 <View
     android:layout_width="fill_parent"
@@ -71,7 +71,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_marginTop="15dp"
-    android:text="Имя игрока:"
+    android:text="@string/player_name"
     android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <LinearLayout
@@ -102,6 +102,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:checked="true"
-        android:text="Не спрашивать перед игрой" />
+        android:text="@string/remember_set" />
 
 </LinearLayout>
